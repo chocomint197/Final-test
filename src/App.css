@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.container {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+.container ul {
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.container ul li {
+    width: 33.33%;
+    height:50px;
+display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container ul li:hover {
+    cursor:pointer
+}
+
+.input-and-btn-container {
+    display:flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input-and-btn-container input {
+    width: 70%;
+    height: 40px;
+    border-radius: 14px;
+}
+
+.input-and-btn-container button {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    height:45px;
+    border-radius: 14px;
+    background-color: rgb(22, 137, 231);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+
+}
+
+.input-and-btn-container button:hover {
+    cursor: pointer;
+}
+
+.list-body {
+    display:flex;
+    margin-top: 10px;
+
+}
+.list-body input {
+    width: 10%;
+    height: 30px;
+}
+
+.list-body .list-title {
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.list-body button {
+    width: 22%;
+    background-color: red;
+    color: #fff;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    font-weight: bold;
+
+}
+
+
+.list-body button:hover {
+    cursor: pointer;
+    background-color: rgb(243, 247, 16);
+    color: #000;
+}
+
+.delete-all {
+    width: 22%;
+    background-color: red;
+    color: #fff;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.delete-all:hover {
+    cursor: pointer;
+    background-color: rgb(243, 247, 16);
+    color: #000;
+}
+
+/* .container ul .active {
+    border-bottom: 5px;
+    color:aqua;
+} */
+
+ul li h3 {
+    width: max-content;
+    height: 44px;
+}
+
+ul li .active{
+   
+    border-bottom: 5px solid aqua;
+}
